@@ -14,9 +14,9 @@
 
 2024년 연말, 인스타그램 광고로 유입되어 알게된 스파르타코딩클럽의 '[항해 99 개발자 잔디 기부 캠페인](https://hanghae99.spartacodingclub.kr/campaign/[id])' 광고 속 블록 퍼즐 모양의 트리에서 영감을 받아 시작된 프로젝트입니다.
 
-<div style="text-align: center;">
+<p align="center">
     <img src="https://github.com/user-attachments/assets/9a9572e8-d355-427e-a5f6-7044b340860a" alt="tree image" width="400">
-</div>
+</p>
 
 ### 주요 목표
 
@@ -37,47 +37,21 @@
 
 ### 1차 개발 (Vanilla JS)
 
-#### 1) 기능
-
-- **트리 커스터마이징**: 그리드 시스템을 활용한 트리 모양 및 색상 변경
-- **다크모드 토글**
-- **반응형 디자인**: 모바일 / 태블릿 / 데스크톱 지원
-- **기능 버튼**: 리셋, 색상 변경, 음악 재생/정지
-- **로컬 스토리지 저장**: 트리 디자인 저장
-- **화면 캡처 기능**
-
-#### 2) 기술 스택
-
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-- ![LocalStorage](https://img.shields.io/badge/LocalStorage-323330?style=flat-square&logo=windowsterminal&logoColor=white)
-  ![Web Audio API](https://img.shields.io/badge/Web%20Audio%20API-FF6F61?style=flat-square&logo=music&logoColor=white)
+| 항목 | 내용 |
+|------|------|
+| 🛠️ **기술 스택** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![LocalStorage](https://img.shields.io/badge/LocalStorage-323330?style=flat-square&logo=windowsterminal&logoColor=white) ![Web Audio API](https://img.shields.io/badge/Web%20Audio%20API-FF6F61?style=flat-square&logo=music&logoColor=white) |
+| 📌 **기능** | • 트리 커스터마이징 (그리드 기반 색상 변경) <br> • 다크모드 토글 <br> • 반응형 디자인 (모바일 / 태블릿 / 데스크톱) <br> • 리셋 / 색상 변경 / 음악 재생·정지 버튼 <br> • 트리 디자인 로컬 브라우저 저장 <br> • 화면 캡처 기능 |
 
 ---
 
 ### 2차 개발 (Next.js)
 
-#### 1) 기능
-
-- **VanillaJS → Next.js 마이그레이션**
-- **컴포넌트 아키텍처 및 TypeScript 도입**
-- **외부 음악 API 연동 & 플레이리스트 기능**
-- **캡처 화면 이메일 발송 기능**
-- **Vercel/Netlify 배포 + SEO 최적화**
-- **광고 배너 통합**
-
-#### 2) 기술 스택
-
-- ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-  ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-- ![API](https://img.shields.io/badge/API-FFB400?style=flat-square&logo=plug&logoColor=white)
-  ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-  ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+| 항목 | 내용 |
+|------|------|
+| 🛠️ **기술 스택** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![API](https://img.shields.io/badge/API-FFB400?style=flat-square&logo=plug&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)  |
+| 📌 **기능** | • VanillaJS → Next.js 마이그레이션 <br> • 컴포넌트 아키텍처 및 TypeScript 도입 <br> • 외부 음악 API 연동 & 플레이리스트 기능 <br> • 캡처 화면 이메일 발송 기능 <br> • Vercel 배포 + SEO 최적화 <br> • 광고 배너 통합  |
 
 ---
 
 ## 📜 라이센스
-
 - MIT License
